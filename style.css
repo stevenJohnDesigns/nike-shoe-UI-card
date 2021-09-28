@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.page-content {
+    background: #F5BC31;
+}
+
+.card img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.product-container {
+    padding: 25px;
+}
+
+.shoe-type,
+.shoe-type-sub {
+    font-size: 35px;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: yellow;
+    border-radius: 50px;
+}
+
+.price {
+    font-size: 28px;
+}
+
+.shoe-description {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.shoe-type,
+.shoe-type-sub,
+.circle,
+.price,
+.shoe-description,
+.shoe-size {
+    display: block;
+}
+
+.shoe-type-sub,
+.circle,
+.price,
+.shoe-description {
+    margin-bottom: 15px;
+}
