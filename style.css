@@ -10,6 +10,17 @@
 
 .page-content {
     background: #F5BC31;
+    height: 100vh;
+}
+
+.card {
+    max-width: 650px;
+    margin: auto;
+}
+
+.logo {
+    padding: 25px 0 15px 0;
+    text-align: center;
 }
 
 .card img {
@@ -56,4 +67,13 @@
 .price,
 .shoe-description {
     margin-bottom: 15px;
+}
+
+select {
+    color: black;
+    width: 125px;
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
 }
