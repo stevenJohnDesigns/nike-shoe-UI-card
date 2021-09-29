@@ -37,13 +37,6 @@
     font-size: 35px;
 }
 
-.circle {
-    width: 25px;
-    height: 25px;
-    background: yellow;
-    border-radius: 50px;
-}
-
 .price {
     font-size: 28px;
 }
@@ -51,6 +44,7 @@
 .shoe-description {
     letter-spacing: 2px;
     font-size: 14px;
+    padding: 10px 0;
 }
 
 .shoe-type,
